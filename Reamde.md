@@ -1,4 +1,4 @@
-#Resolução dos exercicios de Gustavo Guanabara Mundo 02
+#Resolução dos exercicios de Gustavo Guanabara Mundo 
 
 Repositorio feito para guardar as minhas resoluções.
 
