@@ -1,6 +1,8 @@
+from datetime import date
 ma = 0
 me = 0
-ano = 2019
+ano = date.today().year
+
 for c in range(1,8,1):
     idade = int(input("Digite o ano de nascimento {}:".format(c)))
     idade = ano - idade
