@@ -9,5 +9,4 @@ while numero != 999:
     else:
         tot += numero
         count += 1
-print(f'Total:{tot}')
-print(f'Quantidade de numeros digitados:{count}')
+print(f'A soma dos {count} valores foi {tot}!')
