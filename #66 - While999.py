@@ -3,7 +3,7 @@ tot = 0
 count = 0
 
 while numero != 999:
-    numero = int(input('Digite um numero: '))
+    numero = int(input('Digite um numero (999 para parar) '))
     if numero == 999:
         break
     else:
