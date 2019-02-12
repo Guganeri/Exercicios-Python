@@ -13,9 +13,9 @@ while continuar in 'SIM':
     if sexo == 'f' and idade < 20:
         MulherMenor += 1
     print('-'*20)
-    continuar = str(input('Deseja continua? [S/N]')).upper()
     print('-'*20)
-
+    while continuar not in 'SN':
+        continuar = str(input('Deseja continua? [S/N]')).upper()
 print('__ FIM __')
 print(f'Maior idade geral:{MaiorIdade}')
 print(f'Quantidade de homens cadastrados:{Homens}')
