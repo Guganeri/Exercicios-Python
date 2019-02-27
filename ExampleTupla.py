@@ -1,0 +1,12 @@
+a = (2, 5, 4)
+b = (5, 6, 1, 2)
+c = b + a
+print(15*'-','Tuplas Inf',15*'-','\n')
+print(f'Tupla A = {a}')
+print(f'Tupla B = {b}')
+print(f'Tupla C = B + A -> {c}')
+print(f'Mostrando o "len" da tupla (c):{len(c)} ')
+print(f'Contando a quantidade de 5 em ambas as tuplas = {c.count(5)}')
+print('\n',15*'-','Index Inf',18*'-')
+print(c)
+print(f'Posição do 5 usando index: {c.index(5)}')
