@@ -1,5 +1,5 @@
 def ran_check(num,low,high):
-    if num in list(range(low,high+1)):
+    if num in list(range(low, high+1)):
         print(num)
         print(low)
         print(high)
