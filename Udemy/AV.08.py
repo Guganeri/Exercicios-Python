@@ -6,5 +6,4 @@ def ran_check(num,low,high):
         return True
     else:
         return False
-
-print(ran_check(3,1,10)
+print(ran_check(3,1,10))

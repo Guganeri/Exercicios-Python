@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c73c76b-ed37-44af-bd09-7194ae2e96f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Udemy/AV.07.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Udemy/AV.08.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy/AV.08.py" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy/AV.08.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +62,11 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Udemy/AV.08.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -90,8 +92,8 @@
         <option value="$PROJECT_DIR$/Gustavo Guanabara/#75 - WhileTupla.py" />
         <option value="$PROJECT_DIR$/Gustavo Guanabara/#76 - TuplaListadeCompras.py" />
         <option value="$PROJECT_DIR$/Gustavo Guanabara/#77 - ContadorDeVogal.py" />
-        <option value="$PROJECT_DIR$/Udemy/AV.08.py" />
         <option value="$PROJECT_DIR$/Udemy/AV.07.py" />
+        <option value="$PROJECT_DIR$/Udemy/AV.08.py" />
       </list>
     </option>
   </component>
@@ -278,6 +280,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1349" y="0" width="1215" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20390823" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -407,7 +410,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Udemy/AV.08.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
