@@ -28,6 +28,9 @@ def player_input():
 def placa_marker(board, marker, position):
     board[position] = marker
 
+def win_check(board,mark):
+    return ((board[9] == mark and board[8] == mark and board[7]==mark )
+    )
 
 
 display_board([" ", " "," ", " ", " "," ", " "," ", " ", " "])
