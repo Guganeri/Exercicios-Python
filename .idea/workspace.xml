@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c73c76b-ed37-44af-bd09-7194ae2e96f2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Jogo da Velha/JogoDaVelha.py" beforeDir="false" afterPath="$PROJECT_DIR$/Jogo da Velha/JogoDaVelha.py" afterDir="false" />
-    </list>
+    <list default="true" id="6c73c76b-ed37-44af-bd09-7194ae2e96f2" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +22,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Jogo da Velha/JogoDaVelha.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
+            <state relative-caret-position="595">
               <caret line="89" column="27" lean-forward="true" selection-start-line="89" selection-start-column="27" selection-end-line="89" selection-end-column="27" />
               <folding>
                 <element signature="e#50#63#0" expanded="true" />
@@ -68,7 +66,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="979" />
+    <option name="x" value="518" />
     <option name="y" value="2" />
     <option name="width" value="1338" />
     <option name="height" value="1047" />
@@ -308,7 +306,7 @@
     <option name="totallyTimeSpent" value="5409000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="979" y="2" width="1338" height="1047" extended-state="0" />
+    <frame x="518" y="2" width="1338" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15461539" />
@@ -316,7 +314,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33005464" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33005464" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -485,7 +483,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Jogo da Velha/JogoDaVelha.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
+        <state relative-caret-position="595">
           <caret line="89" column="27" lean-forward="true" selection-start-line="89" selection-start-column="27" selection-end-line="89" selection-end-column="27" />
           <folding>
             <element signature="e#50#63#0" expanded="true" />
