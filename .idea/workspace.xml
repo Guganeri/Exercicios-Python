@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c73c76b-ed37-44af-bd09-7194ae2e96f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Exercicios-Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Exercicios-Python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jogo da Velha/JogoDaVelha.py" beforeDir="false" afterPath="$PROJECT_DIR$/Jogo da Velha/JogoDaVelha.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Jogo da Velha/JogoDaVelha.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="50" column="32" lean-forward="true" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+            <state relative-caret-position="713">
+              <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
               <folding>
                 <element signature="e#50#63#0" expanded="true" />
               </folding>
@@ -489,8 +484,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Jogo da Velha/JogoDaVelha.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="50" column="32" lean-forward="true" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+        <state relative-caret-position="713">
+          <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
           <folding>
             <element signature="e#50#63#0" expanded="true" />
           </folding>
