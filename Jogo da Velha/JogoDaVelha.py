@@ -1,5 +1,8 @@
 #Desafio Udemy criação do Jogo da Velha em Python
+import random
 from IPython.display import clear_output
+
+
 
 def display_board(board):
     clear_output()
@@ -15,6 +18,7 @@ def display_board(board):
     print(' ' + board[1] + ' | ' + board[2] + ' | ' + board[3])
     print('   |   |   ')
     pass
+
 def player_input():
     input()
     market = ''
@@ -29,8 +33,19 @@ def placa_marker(board, marker, position):
     board[position] = marker
 
 def win_check(board,mark):
-    return ((board[9] == mark and board[8] == mark and board[7]==mark )
+    return ((board[9] == mark and board[8] == mark and board[7]==mark ) or #VÍTORIA PELO TOPO
+            (board[4] == mark and board[5] == mark and board[6]) or        #PELO MEIO
+            (board[3] == mark and board[2] == mark and board[1]) or        #POR BAIXO
+            (board[7] == mark and board[4] == mark and board[1]) or        #Esquerda
+            (board[8] == mark and board[5] == mark and board[2]) or        #Direita
+            (board[7] == mark and board[5] == mark and board[3]) or        #Diagonal
+            (board[9] == mark and board[5] == mark and board[1])           #Diagonal
     )
-
+def chose_first():
+    if random.randint(0,1) == 0:
+        return 'Player 2'
+    else:
+        return 'Player 1'
+    pass
 
 display_board([" ", " "," ", " ", " "," ", " "," ", " ", " "])
