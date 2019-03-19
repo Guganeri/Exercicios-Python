@@ -64,4 +64,8 @@ def player_choice(board):
 
     return int(position)
 
+def replay():
+
+    return input('Quer jogar novamente? "sim" ou "nao" '.lower().startswith('s'))
+
 display_board([" ", " "," ", " ", " "," ", " "," ", " ", " "])
