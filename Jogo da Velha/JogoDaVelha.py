@@ -19,10 +19,10 @@ def display_board(board):
 
 def player_input():
     input()
-    market = ''
-    while not (market == 'X' or market == 'O'):
-        market = input('Player1: Você quer ser X ou O?').upper()
-    if market == 'X':
+    marker = ''
+    while not (marker == 'X' or marker == 'O'):
+        marker = input('Player1: Você quer ser X ou O?').upper()
+    if marker == 'X':
         return ('X', 'O')
     else:
         return ('O', 'X')
@@ -69,6 +69,7 @@ def replay():
     return input('Quer jogar novamente? "sim" ou "nao" '.lower().startswith('s'))
 
 print('Bem vindo ao Jogo da Velha !!')
+
 while True:
     board = [' ']*10
     player1_marker, player2_maker = player_input()
@@ -93,7 +94,27 @@ while True:
                 display_board(board)
                 print('Empate!')
                 break
+            else:
+                turn = 'Player 2'
 
+
+    #Vez do jogador 2 !!
+    if turn == 'Player 2':
+        display_board(board)
+        position = player_choice()
+        place_marker(board,player2_maker,position)
+    #Checar vitoria
+    if win_check(board,player2_maker):
+        display_board(board)
+        print('Parabéns! você venceu!')
+        game_on = False
+    else:
+        if full_board_check(board):
+            display_board(board)
+            print('Empate')
+            break
+        else:
+            turn = 'Player 1'
 
     if not replay():
         break
