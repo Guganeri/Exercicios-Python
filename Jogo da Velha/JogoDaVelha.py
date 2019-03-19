@@ -27,7 +27,7 @@ def player_input():
     else:
         return ('O', 'X')
 
-def placa_marker(board, marker, position):
+def place_marker(board, marker, position):
     board[position] = marker
 
 def win_check(board,mark):
@@ -68,4 +68,23 @@ def replay():
 
     return input('Quer jogar novamente? "sim" ou "nao" '.lower().startswith('s'))
 
-display_board([" ", " "," ", " ", " "," ", " "," ", " ", " "])
+print('Bem vindo ao Jogo da Velha !!')
+while True:
+    board = [' ']*10
+    player1_marker, player2_maker = player_input()
+    turn = chose_first()
+    print(turn+' começa!')
+
+    game_on = True
+
+    if turn == 'Player 1':
+        #Vez do jogador 1 !!
+        display_board(board)
+        position = player_choice(board)
+        place_marker(board, place_marker, position)
+
+        #Checar Vitória
+
+
+    if not replay():
+        break
