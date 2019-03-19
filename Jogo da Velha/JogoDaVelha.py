@@ -84,6 +84,15 @@ while True:
         place_marker(board, place_marker, position)
 
         #Checar Vitória
+        if win_check(board,player1_marker):
+            display_board(board)
+            print('Parabéns! Você Venceu !! ')
+            game_on = False
+        else:
+            if full_board_check(board):
+                display_board(board)
+                print('Empate!')
+                break
 
 
     if not replay():
