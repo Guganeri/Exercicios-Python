@@ -8,7 +8,7 @@ while True:
     if str == 'S':
         continue
     else:
-        print('='*25)
+        print('-='*25)
         break
 
 print(sorted(set(list)))
