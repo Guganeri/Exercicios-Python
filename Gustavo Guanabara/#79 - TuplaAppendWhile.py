@@ -12,4 +12,11 @@ while True:
         break
 
 print(sorted(set(list)))
+#if n not in numero?
+#    numero.append(n)
+#    print('Valor Adcional')
+#else:
+#   print('Valor duplicado não adcionar...')
+
+
 
