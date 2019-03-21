@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f58ed9e-a1ed-431a-b83c-985a11043233" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Gustavo Guanabara/#80 - GuardarValoresOrdenadamente.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gustavo Guanabara/#80 - GuardarValoresOrdenadamente.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gustavo Guanabara/#81 - ListConsultOrderbyLen.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gustavo Guanabara/#81 - ListConsultOrderbyLen.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +21,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gustavo Guanabara/#79 - TuplaAppendWhile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gustavo Guanabara/#81 - ListConsultOrderbyLen.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+            <state relative-caret-position="102">
+              <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -191,10 +199,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gustavo Guanabara/#79 - TuplaAppendWhile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gustavo Guanabara/#81 - ListConsultOrderbyLen.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        <state relative-caret-position="102">
+          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
