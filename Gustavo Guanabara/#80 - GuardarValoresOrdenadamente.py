@@ -13,3 +13,4 @@ for c in range(0, 5):
             pos += 1
 
 print(lista)
+print(len(lista))
