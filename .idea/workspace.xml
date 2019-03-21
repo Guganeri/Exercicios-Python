@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f58ed9e-a1ed-431a-b83c-985a11043233" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Gustavo Guanabara/#82 - 3List.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gustavo Guanabara/#83 - CheckExpression.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +22,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gustavo Guanabara/#82 - 3List.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="340">
+              <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gustavo Guanabara/#83 - CheckExpression.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -49,12 +58,13 @@
         <option value="$PROJECT_DIR$/Gustavo Guanabara/#80 - GuardarValoresOrdenadamente.py" />
         <option value="$PROJECT_DIR$/Gustavo Guanabara/#81 - ListConsultOrderbyLen.py" />
         <option value="$PROJECT_DIR$/Gustavo Guanabara/#82 - 3List.py" />
+        <option value="$PROJECT_DIR$/Gustavo Guanabara/#83 - CheckExpression.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="588" />
-    <option name="y" value="39" />
+    <option name="x" value="1394" />
+    <option name="y" value="3" />
     <option name="width" value="1338" />
     <option name="height" value="976" />
   </component>
@@ -98,7 +108,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.#82 - 3List">
+  <component name="RunManager" selected="Python.#83 - CheckExpression">
     <configuration name="#78 - ListBigSmall" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Exercicios-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -133,27 +143,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Gustavo Guanabara/#79 - TuplaAppendWhile.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="#80 - GuardarValoresOrdenadamente" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Exercicios-Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Gustavo Guanabara" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Gustavo Guanabara/#80 - GuardarValoresOrdenadamente.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -204,13 +193,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="#83 - CheckExpression" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Exercicios-Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Gustavo Guanabara" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Gustavo Guanabara/#83 - CheckExpression.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.#83 - CheckExpression" />
         <item itemvalue="Python.#82 - 3List" />
         <item itemvalue="Python.#81 - ListConsultOrderbyLen" />
         <item itemvalue="Python.#78 - ListBigSmall" />
         <item itemvalue="Python.#79 - TuplaAppendWhile" />
-        <item itemvalue="Python.#80 - GuardarValoresOrdenadamente" />
       </list>
     </recent_temporary>
   </component>
@@ -228,10 +238,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="588" y="39" width="1338" height="976" extended-state="0" />
+    <frame x="1394" y="3" width="1338" height="976" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.19384615" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.19384615" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.3295583" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -239,7 +250,7 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.3440095" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.3440095" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -268,8 +279,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gustavo Guanabara/#82 - 3List.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="340">
+          <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gustavo Guanabara/#83 - CheckExpression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
         </state>
       </provider>
     </entry>
