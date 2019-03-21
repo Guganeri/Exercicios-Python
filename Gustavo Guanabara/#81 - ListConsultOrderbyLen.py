@@ -11,6 +11,7 @@ while True:
 
 print(f'O tamanho da lista é: {len(numeros)}')
 print(f'Existe o numero 5 na posição {numeros.index(5)}')
-print(numeros.sort(reversed=True))
+numeros.sort(reverse=True)
+print(numeros)
 
 
