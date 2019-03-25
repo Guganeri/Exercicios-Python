@@ -71,7 +71,7 @@ print('Bem vindo ao Jogo da Velha !!')
 
 while True:
     board = [' ']*10
-    player1_marker, player2_maker = player_input()
+    player1_marker, player2_marker = player_input()
     turn = chose_first()
     print(turn+' começa!')
 
@@ -99,10 +99,10 @@ while True:
     #Vez do jogador 2 !!
     if turn == 'Player 2':
         display_board(board)
-        position = player_choice()
-        place_marker(board,player2_maker,position)
+        position = player_choice(board)
+        place_marker(board, player2_marker, position)
     #Checar vitoria
-    if win_check(board,player2_maker):
+    if win_check(board, player2_marker):
         display_board(board)
         print('Parabéns! você venceu!')
         game_on = False
