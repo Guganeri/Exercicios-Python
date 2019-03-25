@@ -18,7 +18,6 @@ def display_board(board):
     pass
 
 def player_input():
-    input()
     marker = ''
     while not (marker == 'X' or marker == 'O'):
         marker = input('Player1: Você quer ser X ou O?').upper()
@@ -59,7 +58,7 @@ def full_board_check(board):
 
 def player_choice(board):
     position = ' '
-    while position not in '1, 2, 3, 4, 5, 6, 7, 8, ,9'.split() or not space_check(board,int(position)):
+    while position not in '1, 2, 3, 4, 5, 6, 7, 8, ,9'.split() or not space_check(board, int(position)):
         position = input('Escolha sua jogada (1-9) ')
 
     return int(position)
@@ -82,21 +81,20 @@ while True:
         #Vez do jogador 1 !!
         display_board(board)
         position = player_choice(board)
-        place_marker(board, place_marker, position)
+        place_marker(board, player1_marker, position)
 
         #Checar Vitória
-        if win_check(board,player1_marker):
+    if win_check(board, player1_marker):
+        display_board(board)
+        print('Parabéns! Você Venceu !! ')
+        game_on = False
+    else:
+        if full_board_check(board):
             display_board(board)
-            print('Parabéns! Você Venceu !! ')
-            game_on = False
+            print('Empate!')
+            break
         else:
-            if full_board_check(board):
-                display_board(board)
-                print('Empate!')
-                break
-            else:
-                turn = 'Player 2'
-
+            turn = 'Player 2'
 
     #Vez do jogador 2 !!
     if turn == 'Player 2':
