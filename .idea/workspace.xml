@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f58ed9e-a1ed-431a-b83c-985a11043233" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Gustavo Guanabara/#83 - CheckExpression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/H4ckpy/001 - Int.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +16,7 @@
         <entry file="file://$PROJECT_DIR$/Gustavo Guanabara/#81 - ListConsultOrderbyLen.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -26,18 +25,23 @@
         <entry file="file://$PROJECT_DIR$/Gustavo Guanabara/#82 - 3List.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+              <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gustavo Guanabara/#83 - CheckExpression.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Gustavo Guanabara/#83 - CheckExpression.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/H4ckpy/001 - Int.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -59,6 +63,7 @@
         <option value="$PROJECT_DIR$/Gustavo Guanabara/#81 - ListConsultOrderbyLen.py" />
         <option value="$PROJECT_DIR$/Gustavo Guanabara/#82 - 3List.py" />
         <option value="$PROJECT_DIR$/Gustavo Guanabara/#83 - CheckExpression.py" />
+        <option value="$PROJECT_DIR$/H4ckpy/001 - Int.py" />
       </list>
     </option>
   </component>
@@ -79,11 +84,6 @@
             <path>
               <item name="Exercicios-Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Exercicios-Python" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exercicios-Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercicios-Python" type="462c0819:PsiDirectoryNode" />
-              <item name="Gustavo Guanabara" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -273,23 +273,26 @@
     <entry file="file://$PROJECT_DIR$/Gustavo Guanabara/#81 - ListConsultOrderbyLen.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gustavo Guanabara/#82 - 3List.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gustavo Guanabara/#83 - CheckExpression.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/H4ckpy/001 - Int.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
