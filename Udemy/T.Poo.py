@@ -5,4 +5,8 @@ class Dog(object):
         self.raça = raça
         print(len(self.species))
 
+    def latir(self):
+        print('Au au')
+
 sam = Dog(raça='Beagle')
+sam.latir()
