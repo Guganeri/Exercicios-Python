@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="166d85ba-b863-4bbd-b9f1-519a0fe62844" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Udemy/T.Poo2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy/T.Poo2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Udemy/T.Poo3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,6 +13,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Exercicios_Python$T_Poo.coverage" NAME="T.Poo Coverage Results" MODIFIED="1553802151489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Udemy" />
+    <SUITE FILE_PATH="coverage/Exercicios_Python$T_Poo3.coverage" NAME="T.Poo3 Coverage Results" MODIFIED="1553806524730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Udemy" />
     <SUITE FILE_PATH="coverage/Exercicios_Python$T_Poo2.coverage" NAME="T.Poo2 Coverage Results" MODIFIED="1553804010794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Udemy" />
   </component>
   <component name="FileEditorManager">
@@ -25,11 +27,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Udemy/T.Poo2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="14" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="14" />
+            <state relative-caret-position="277">
+              <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Udemy/T.Poo3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -51,6 +62,7 @@
       <list>
         <option value="$PROJECT_DIR$/Udemy/T.Poo.py" />
         <option value="$PROJECT_DIR$/Udemy/T.Poo2.py" />
+        <option value="$PROJECT_DIR$/Udemy/T.Poo3.py" />
       </list>
     </option>
   </component>
@@ -102,7 +114,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.T.Poo2">
+  <component name="RunManager" selected="Python.T.Poo3">
     <configuration name="T.Poo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Exercicios-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,8 +159,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="T.Poo3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Exercicios-Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Udemy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Udemy/T.Poo3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.T.Poo3" />
         <item itemvalue="Python.T.Poo2" />
         <item itemvalue="Python.T.Poo" />
       </list>
@@ -164,12 +199,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553798936167</updated>
-      <workItem from="1553798941147" duration="3218000" />
+      <workItem from="1553798941147" duration="4615000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3218000" />
+    <option name="totallyTimeSpent" value="4615000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -211,8 +246,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Udemy/T.Poo2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="14" />
+        <state relative-caret-position="277">
+          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Udemy/T.Poo3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
         </state>
       </provider>
     </entry>
