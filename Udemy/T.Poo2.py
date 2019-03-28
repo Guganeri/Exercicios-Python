@@ -1,11 +1,11 @@
 class Circulo(object):
     pi = 3.14
 
-    def _init_(self, raio=1):
+    def __init__(self, raio=1):
         self.raio = raio
 
     def area(self):
-        return self.raio **2 * self.pi
+        return self.raio ** 2 * self.pi
 
     def defRaio(self, raio):
         self.raio = raio
@@ -13,4 +13,8 @@ class Circulo(object):
     def obtemRaio(self):
         return self.raio
 
-c = Circulo
+
+c = Circulo(2)
+print(c.area())
+c.defRaio(3)
+print(c.raio)
