@@ -18,3 +18,8 @@ c = Circulo(2)
 print(c.area())
 c.defRaio(3)
 print(c.raio)
+
+d = Circulo(5)
+print(c.area())
+d.defRaio(5)
+print(d.raio)
