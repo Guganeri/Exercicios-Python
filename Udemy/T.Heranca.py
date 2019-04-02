@@ -21,3 +21,6 @@ class Cachorro(animal):
         print('Au au.')
 
 sam = Cachorro()
+sam.quemSouEu()
+sam.latir()
+sam.comer()
