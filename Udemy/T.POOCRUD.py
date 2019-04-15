@@ -6,11 +6,13 @@ class Book(object):
         self.paginas = paginas
 
     def __str__(self):
-        return "Titulo (a)".format(a=self.titulo)
+        return "Titulo {a}".format(a=self.titulo)
+
     def __len__(self):
         return self.paginas
+
     def __del__(self):
-        print("Livro Destruido")
+        print('Livro Destruido')
 
 livro1 = Book('Pyhton', 'Gustavo',100)
-len(livro1)
+print(len(livro1))
