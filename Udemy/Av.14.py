@@ -1,10 +1,18 @@
-class line(object):
-
+class Line(object):
     def __init__(self,coor1,coor2):
-        pass
+        self.coor1 = coor1
+        self.coor2 = coor2
 
-    def distance(selfs):
-        pass
+
+    def distance(self):
+        x1,y1  = self.coor1
+        x2,y2 = self.coor2
+        return ((x2-x1)**2 + (y2-y1)**2)**0.5
+
     def slope(self):
-        pass
-    
+        x1,y1 = self.coor1
+        x2,y2 = self.coor2
+        return ((y2-y1))/(x2-x2)
+
+l1 = line()
+l1.distance(3,2)
