@@ -26,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gustavo Guanabara/#87 - AprimorarDesafio.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="476">
+              <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -57,10 +57,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1401" />
-    <option name="y" value="41" />
+    <option name="x" value="-1684" />
     <option name="width" value="1285" />
-    <option name="height" value="977" />
+    <option name="height" value="1029" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -235,25 +234,25 @@
       <option name="presentableId" value="Default" />
       <updated>1557707032213</updated>
       <workItem from="1557766575508" duration="4459000" />
-      <workItem from="1557778086744" duration="2818000" />
+      <workItem from="1557778086744" duration="3224000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7277000" />
+    <option name="totallyTimeSpent" value="7683000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1401" y="41" width="1204" height="903" extended-state="0" />
+    <frame x="-1684" y="0" width="1285" height="1029" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18006992" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16816327" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.26493508" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.22767857" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -308,8 +307,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gustavo Guanabara/#87 - AprimorarDesafio.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="476">
+          <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
         </state>
       </provider>
     </entry>

@@ -21,9 +21,12 @@ somaterceiracoluna += matriz2[0][2] + matriz2[1][2] + matriz2[2][2]
 
 if l2 == 0:
     l2 = matriz2[2][0]
-    l2
+    if l2 > matriz2[2][1]:
+
+    l2 += matriz2[2][2]
 
 
 print('-=' * 30)
 print(f'A soma dos numeros pares é: {somatot}')
 print(f'Soma dos valores da terceira coluna é: {somaterceiracoluna}')
+print(f'O maior valor da segunda linha  ')
