@@ -21,7 +21,7 @@ somaterceiracoluna += matriz2[0][2] + matriz2[1][2] + matriz2[2][2]
 
 if l2 == 0:
     l2 = matriz2[2][0]
-    l2 
+    l2
 
 
 print('-=' * 30)
