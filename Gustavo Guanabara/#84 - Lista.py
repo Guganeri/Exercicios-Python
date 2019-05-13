@@ -17,7 +17,14 @@ while True:
     resp = str(input('Quer continuar? [S/N]')).upper()
     if resp in 'Nn':
         break
-print(f'Os dados foram {princ}')
-print(f'Ao todo você cadastrou {len(princ)} pessoas')
-print(f'O maior peso foi {mai}kg')
-print(f'O menor peso foi {men}kg')
+#print(f'Os dados foram {princ}')
+print(f'Ao todo você cadastrou {len(princ)} pessoas.')
+print(f'O maior peso foi {mai}kg. Peso de ', end='')
+for p in princ:
+    if p[1] == mai:
+        print(f'[{p[0]}]', end='')
+print()
+print(f'O menor peso foi {men}kg', end='')
+for p in princ:
+    if p[1] == men:
+        print(f'[{p[0]}]', end='')
