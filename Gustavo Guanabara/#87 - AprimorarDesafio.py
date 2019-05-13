@@ -1,6 +1,6 @@
 ### Resolução Guanabara ###
 matriz2 = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
-somatot = 0
+l2 = somatot = 0
 somaterceiracoluna = 0
 
 for linha in range(0, 3):
@@ -17,9 +17,12 @@ for linha in range(0, 3):
         if matriz2[linha][coluna] % 2 == 0:
             somatot = matriz2[linha][coluna]
 
-somaterceiracoluna += matriz2[0][3]
-somaterceiracoluna += matriz2[1][3]
-somaterceiracoluna += matriz2[2][3]
+somaterceiracoluna += matriz2[0][2] + matriz2[1][2] + matriz2[2][2]
+
+if l2 == 0:
+    l2 = matriz2[2][0]
+    l2 
+
 
 print('-=' * 30)
 print(f'A soma dos numeros pares é: {somatot}')
