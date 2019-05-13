@@ -1,18 +1,13 @@
-maior = menor = contador = 0
-pessoas = list()
-cont = True
+temp = []
+princ = []
 
-while cont == True:
-    pessoas[0].append(str(input('Nome: ')))
-    pessoas[0].append(float(input('Peso: ')))
-    contador += 1
-    if pessoas[0]:
-        maior = pessoas[0]
-        menor = pessoas[0]
+while True:
+    temp.append(str(input('Nome: ')))
+    temp.append(float(input('Peso: ')))
+    princ.append(temp[:])
+    temp.clear()
 
-    cont = input('Deseja adicionar outra pessoa? [S/N]').upper()
-    if (cond == 'S'):
-        continue
-    elif (cond == 'N'):
+    resp = str(input('Quer continuar? [S/N]')).upper()
+    if resp in 'Nn':
         break
-
+print(f'Os dados foram {princ}')
