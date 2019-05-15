@@ -7,18 +7,24 @@ for linha in range(0, 3):
     for coluna in range(0, 3):
         matriz2[linha][coluna] = int(input(f'Digite um valor para [{linha}, {coluna}] : '))
 print('-=' * 30)
+#Impressão da matriz
 for linha in range(0, 3):
     for coluna in range(0, 3):
         print(f'[{matriz2[linha][coluna]:^5}]', end='')
     print()
-
+#Soma Pparesw
 for linha in range(0, 3):
     for coluna in range(0, 3):
         if matriz2[linha][coluna] % 2 == 0:
             somatot = matriz2[linha][coluna]
 
-somaterceiracoluna += matriz2[0][2] + matriz2[1][2] + matriz2[2][2]
+#Soma terceira coluna
+#somaterceiracoluna += matriz2[0][2] + matriz2[1][2] + matriz2[2][2]
+for linha in range(0, 3):
+    somaterceiracoluna += matriz2[linha][2]
+#print(f'Soma terceira coluna com for {somaterceiracoluna} ')
 
+#Maior valor da segunda linha
 if maiorsegundalinha == 0:
     maiorsegundalinha = matriz2[1][0]
     if maiorsegundalinha < matriz2[1][1]:
