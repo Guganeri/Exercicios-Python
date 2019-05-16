@@ -5,13 +5,13 @@ jogofinal = list()
 tot = 1
 
 print('-='*30)
-print('JOGO NA MEGA SENA')
+print('               JOGO NA MEGA SENA               ')
 print('-='*30)
 
 jogos = int(input('Digite a quantidade de jogos que desej gerar: '))
 
 sleep(1)
-print('\nSortendo Jogos')
+print('-='*5, f'   Sortendo {jogos} Jogos   ', '-='*5, '\n')
 sleep(1)
 
 while tot <= jogos:
@@ -27,5 +27,10 @@ while tot <= jogos:
     jogofinal.append(jogofull[:])
     jogofull.clear()
     tot += 1
-print(jogofinal)
+
+for i, l in enumerate(jogofinal):
+    print(f'Jogo {i+1}: {l}')
+    sleep(1)
+print('-='*5, '< BOA SORTE >', '-='*5)
+
 
